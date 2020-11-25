@@ -8,7 +8,7 @@ Optimized multithread bucket allocator with the goal of outperforming the system
   - baseline singly linked free-list allocator
   
 - sys_malloc.c
-  - debian 10 system allocator
+  - wrapper for system allocator
   
 - opt_malloc.c
   - optimized thread-safe bucket allocator
