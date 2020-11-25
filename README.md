@@ -5,13 +5,13 @@ Optimized multithread bucket allocator with the goal of outperforming the system
 
 
 ### hwx_malloc.c
-baseline singly linked free-list allocator
+Baseline circular singly linked free-list allocator.
   
 ### sys_malloc.c
-wrapper for system allocator
+Wrapper for the system allocator.
   
 ### opt_malloc.c
-optimized thread-safe bucket allocator
+Optimized thread-safe bucket allocator.
 
 ### Supported functions
 ```
